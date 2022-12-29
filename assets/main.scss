@@ -78,12 +78,14 @@ body {
     }
 
     &__title {
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 1.5em;
-      margin: 1.5em 0 1em;
-      color: $color-1;
-      padding: 0 32px 0;
+      h1 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.5em;
+        margin: 1.5em 0 1em;
+        color: $color-1;
+        padding: 0 32px 0;
+      }
     }
 
     &__body {
